@@ -1,0 +1,259 @@
+body{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.burger-logo{
+    width: 114px;
+    height: 143px;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    font-family: AcademyEngravedLetPlain;
+    font-style: normal;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: AcademyEngravedLetPlain;
+    margin: 50px;
+}
+.navbar{
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    color: white;
+    font-family: 'Antic Slab', serif;
+    font-size: 77px;
+
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    width: 333px;
+    height: 124px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: 'Antic Slab', serif;
+    font-size: 48px;
+}
+.burger-image{
+    width: 854px;
+}
+.footer{
+    height: 52px;
+    background-color: #F19B42;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 48px;
+    height: 48px;
+}
+.contact{
+    font-size: 32px;
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    margin: auto;
+    text-shadow: 0em 0em 35px black;
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.price{
+    width: 220px;
+    height: 94px;
+    border-radius: 30px;
+    top: 770px;
+    left: 720px;
+    position: absolute;
+}
+.content-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.burgers-picture{
+    width: 353px;
+    height: 659px;
+}
+li{
+    color: white;
+    font-family: 'Antic Slab', serif;
+    list-style: none;
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+h2{
+    color: white;
+    font-family: AcademyEngravedLetPlain;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 0px;
+}
+.hotdog{
+    width: 422px;
+    height: 210px;
+}
+.fries{
+    width: 358px;
+}
+.picture{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+}
+.about-img{
+    width: 332x;
+    height: 693px;
+    margin: 50px;
+}
+.par{
+    color: white;
+    font-family: 'Antic Slab', serif;
+    font-size: 32px;
+    margin: 100px;
+    margin-top: 20px;
+}
+.mobile{
+    display: none;
+}
+#burgers-picture{
+    display: none;
+}
+.wrapper{
+    min-height: max-content;
+}
+@media all and (max-width:500px){
+    .container{
+        flex-direction: column;
+    }
+h1{
+    font-size: 35px;
+    margin: auto;
+}
+a{
+    font-size:25px;
+    margin: 20px;
+}
+.navbar{
+    align-items: inherit;
+    margin: 0;
+}
+.content{
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.burger-image{
+    width: 100%;
+    margin-top:-30px;
+}
+.price{
+    width: 140px;
+    height: 64px;
+    border-radius: 30px;
+    top: 270px;
+    left: 220px;
+    position: absolute;
+}
+.text{
+    font-size: 33px;
+    margin: 20px;
+}
+.hidden{
+    display: none;
+}
+.btn{
+    width: 350px;
+    height: 80px;
+    font-size: 40px;
+    margin: 10px;
+}
+.mobile{
+    display: block;
+}
+.contact{
+    font-size: 24px;
+    text-shadow: none;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+h2{
+    font-size: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+li{
+    font-size: 20px;
+}
+.burgers-picture{
+    display: none;
+}
+#burgers-picture{
+    display: block;
+    width: 140px;
+    margin-top: 20px;
+}
+.hotdog{
+    width: 140px;
+    height: 74px;
+
+}
+.fries{
+    width: 140px;
+    height: 132px;
+    margin-top: -50px;
+
+}
+.prices{
+    margin-bottom: 93px;
+}
+.about-img{
+    display: none;
+}
+.par{
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 5px;
+}
+ul{
+    margin-left: 5px;
+}
+
+}
